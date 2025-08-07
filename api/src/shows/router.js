@@ -6,6 +6,5 @@ export default function createRouter({controller}) {
     router.get('/', controller.getShows);
     router.get('/:id', controller.getShowById);
 
-
     return router;
 }
